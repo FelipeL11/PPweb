@@ -1,0 +1,20 @@
+.App {
+  background-color: #a1a1a1; /* Cambia esto al color de fondo que desees */
+}
+.carousel-image{
+  width: 100%;
+  height: auto;
+}
+.thumbnail-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnail-image{
+  margin: 5 5px;
+  cursor: pointer;
+
+}
+.info-container{
+  margin-top: 10px;
+}
