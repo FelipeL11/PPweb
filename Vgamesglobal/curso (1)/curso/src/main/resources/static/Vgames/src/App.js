@@ -1,14 +1,11 @@
 import React from 'react';
-import Componente from './Micomponente';
-import './App.css'
-function App(){
-  return(
-    <div className="App"> 
-    
-    <Componente/>
-    </div>
+import Login from './login';
 
-  );
+function App() {
+    return (
+        <div className="App">
+            <Login/>
+        </div>
+    );
 }
-
 export default App;
