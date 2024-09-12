@@ -1,0 +1,81 @@
+/* Estilos para la página de registro */
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(
+    100vh - 350px
+  ); /* Asegura que el contenedor ocupe el espacio restante */
+  box-sizing: border-box;
+}
+
+/* Contenedor principal de registro */
+.register-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Títulos */
+.register-container h2 {
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Formulario */
+.register-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Inputs */
+.register-container input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.register-container input:focus {
+  border-color: #3498db; /* Cambia el borde al hacer foco */
+}
+
+/* Botón */
+.register-container button {
+  padding: 12px;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-container button:hover {
+  background-color: #e74c3c;
+}
+
+/* Enlace para cambiar a login */
+.register-container p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.register-container p a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.register-container p a:hover {
+  text-decoration: underline;
+}
