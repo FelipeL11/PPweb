@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:3307
--- Tiempo de generación: 03-10-2024 a las 19:46:35
+-- Tiempo de generación: 07-10-2024 a las 20:02:55
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `vgames`
+-- Base de datos: `dfgames`
 --
 
 -- --------------------------------------------------------
@@ -116,12 +116,9 @@ CREATE TABLE `juegos` (
   `id_carro_compras` int(100) NOT NULL,
   `id_juego_plataforma` int(100) NOT NULL,
   `id_evento` int(100) NOT NULL,
-  `nombre` varchar(100) NOT NULL,
-  `lanzamiento` varchar(100) NOT NULL,
+  `nombre_j` varchar(100) NOT NULL,
   `precio` varchar(100) NOT NULL,
-  `descripcion` varchar(100) NOT NULL,
-  `desarrollador` varchar(100) NOT NULL,
-  `logros` varchar(100) NOT NULL
+  `distribuidor` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -158,7 +155,7 @@ CREATE TABLE `pagos` (
   `id_pago` int(100) NOT NULL,
   `id_compra` int(100) NOT NULL,
   `id_medio_pago` int(100) NOT NULL,
-  `valor` varchar(100) NOT NULL,
+  `precio` varchar(100) NOT NULL,
   `f_pago` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -183,13 +180,9 @@ CREATE TABLE `plataformas` (
 CREATE TABLE `usuario` (
   `id_usuario` int(100) NOT NULL,
   `id_evento` int(100) NOT NULL,
-  `nombre` varchar(100) NOT NULL,
+  `nombre_c` varchar(100) NOT NULL,
   `correo` varchar(100) NOT NULL,
-  `contraseña` varchar(100) NOT NULL,
-  `fecha_registro` varchar(100) NOT NULL,
-  `rol` varchar(100) NOT NULL,
-  `logros` varchar(100) NOT NULL,
-  `reseña` varchar(100) NOT NULL
+  `contraseña` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
