@@ -19,40 +19,29 @@ public class UsuarioDaoImp implements UsuarioDao {
 
     @Override
     @Transactional
-    public List<juegos> getjuegos() {
-        String query = "FROM juegos";
+    public List<Usuario> getjuegos() {
+        String query = "FROM Usuario";
         return entityManager.createQuery(query).getResultList();
     }
 
     @Override
     public void eliminar(Long id_juegos) {
-        Usuario usuario = entityManager.find(Usuario.class, id);
-        entityManager.remove(usuario);
+        Usuario juegos = entityManager.find(Usuario.class, id_juegos);
+        entityManager.remove(juegos);
     }
 
     @Override
-    public void registrar(Usuario usuario) {
-        entityManager.merge(usuario);
+    public void registrar(Usuario juegos) {
+        entityManager.merge(juegos);
     }
 
     @Override
-    public Usuario obtenerUsuarioPorCredenciales(Usuario usuario) {
-        String query = "FROM Usuario WHERE email = :email";
+    public Usuario obtenerUsuarioPorCredenciales(Usuario juegos) {
+        String query = "FROM Usuario WHERE id_juegos = :id_juegos";
         List<Usuario> lista = entityManager.createQuery(query)
-                .setParameter("email", usuario.getEmail())
+                .setParameter("id_juegos", usuario.getid_juegos())
                 .getResultList();
 
-        if (lista.isEmpty()) {
-            return null;
-        }
-
-        String passwordHashed = lista.get(0).getPassword();
-
-        Argon2 argon2 = Argon2Factory.create(Argon2Factory.Argon2Types.ARGON2id);
-        if (argon2.verify(passwordHashed, usuario.getPassword())) {
-            return lista.get(0);
-        }
-        return null;
     }
 
 }
