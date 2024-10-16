@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e198ecc-cadd-4ee6-ae08-4cd8006be321" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/backend/Model/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/backend/dao/dao/UsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vgamesglobal/backend/dao/dao/UsuarioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/backend/dao/dao/UsuarioDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vgamesglobal/backend/dao/dao/UsuarioDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/backend/models/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vgamesglobal/backend/models/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vgamesglobal/backend/dao/dao/UsuarioDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vgamesglobal/backend/dao/dao/UsuarioDaoImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vgamesglobal/backend/models/models/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vgamesglobal/backend/x.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,20 +25,29 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "assignee": "F-Leon11"
+    }
+  ],
   "lastFilter": {
-    "state": "OPEN",
     "assignee": "F-Leon11"
   }
 }]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FelipeL11/PPweb.git",
-    "accountId": "e921c810-c4f7-40ca-b2cc-e1820ba2b3bc"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FelipeL11/PPweb.git&quot;,
+    &quot;accountId&quot;: &quot;e921c810-c4f7-40ca-b2cc-e1820ba2b3bc&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -45,21 +56,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/PPweb",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PPweb&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PPweb\Vgamesglobal\dfgames\src\backend\Model" />
+      <recent name="C:\PPweb\Vgamesglobal\dfgames\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CursoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="curso" />
@@ -83,9 +100,33 @@
       <workItem from="1725998708590" duration="8000" />
       <workItem from="1725998750897" duration="6986000" />
     </task>
+    <task id="LOCAL-00001" summary="Se realizo la condiguracion de backend en Usuario.java con la tabla principal de la base de datos ademas de esto se intento configurar el UsuarioDao y el UsuarioDaoImp">
+      <option name="closed" value="true" />
+      <created>1728512319732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728512319732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se realizo la condiguracion de backend en Usuario.java con la tabla principal de la base de datos ademas de esto se intento configurar el UsuarioDao y el UsuarioDaoImp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se realizo la condiguracion de backend en Usuario.java con la tabla principal de la base de datos ademas de esto se intento configurar el UsuarioDao y el UsuarioDaoImp" />
   </component>
 </project>
