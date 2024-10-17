@@ -4,68 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e198ecc-cadd-4ee6-ae08-4cd8006be321" name="Changes" comment="Se movio la carpeta de backend a el src del proyecto, dentro de la carpeta esta otra carpeta llamada model en donde se pondran los archivos .java para la conexion, ya hay un archivo .jaba llando Game en donde se hace el get y el set de los componentes princopales de la base de datos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/.hintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/ARK.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/Fortnite.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/Fortnite.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/Minecraft.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/Minecraft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/amongus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/amongus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/app-store.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/genshin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/genshincr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/google-play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/gow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/league-of-legends.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/logo-r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/pubg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/rocket.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/smwonder.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/tofbw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/valocr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/images/valogc.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/backend/Model/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/components/Carousel.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/components/Footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/components/GameCard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/components/LoginForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/components/Navbar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/components/RegisterForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/pages/AuthPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/pages/DealsPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/pages/GamesPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/pages/HomePage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/pages/SupportPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/styles/Carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/styles/Deals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/styles/Footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/styles/GameCard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/styles/Games.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/styles/LoginForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/styles/Navbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/styles/RegisterForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/src/vite-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/tsconfig.node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vgamesglobal/dfgames/vite.config.ts" beforeDir="false" />
-    </list>
+    <list default="true" id="8e198ecc-cadd-4ee6-ae08-4cd8006be321" name="Changes" comment="se agrego la carpeta de spring y un nueva carpeta para el back" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729111951016</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="se agrego la carpeta de spring y un nueva carpeta para el back">
+      <option name="closed" value="true" />
+      <created>1729136417301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729136417301</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se realizo la condiguracion de backend en Usuario.java con la tabla principal de la base de datos ademas de esto se intento configurar el UsuarioDao y el UsuarioDaoImp" />
     <MESSAGE value="Se movio la carpeta de backend a el src del proyecto, dentro de la carpeta esta otra carpeta llamada model en donde se pondran los archivos .java para la conexion, ya hay un archivo .jaba llando Game en donde se hace el get y el set de los componentes princopales de la base de datos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se movio la carpeta de backend a el src del proyecto, dentro de la carpeta esta otra carpeta llamada model en donde se pondran los archivos .java para la conexion, ya hay un archivo .jaba llando Game en donde se hace el get y el set de los componentes princopales de la base de datos" />
+    <MESSAGE value="se agrego la carpeta de spring y un nueva carpeta para el back" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrego la carpeta de spring y un nueva carpeta para el back" />
   </component>
 </project>
